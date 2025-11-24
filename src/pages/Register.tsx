@@ -2,7 +2,10 @@ import { Sidebar } from "@/components/layout/Sidebar";
 import { Header } from "@/components/layout/Header";
 import { MobileNav } from "@/components/layout/MobileNav";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+<<<<<<< HEAD
 import RegisterWizard from "@/components/register/RegisterWizard";
+=======
+>>>>>>> 22cd1cc6bf69d05bb6043d5fffb7fd988d70d96a
 
 export default function Register() {
   return (
@@ -21,10 +24,20 @@ export default function Register() {
             <Card>
               <CardHeader>
                 <CardTitle>Registration Wizard</CardTitle>
+<<<<<<< HEAD
                 <CardDescription>Follow the steps to complete course enrollment</CardDescription>
               </CardHeader>
               <CardContent>
                 <RegisterWizard />
+=======
+                <CardDescription>Multi-step registration flow coming soon</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  This section will include a 5-step wizard for course registration including personal info,
+                  subject selection, fees summary, schedule preview, and final review.
+                </p>
+>>>>>>> 22cd1cc6bf69d05bb6043d5fffb7fd988d70d96a
               </CardContent>
             </Card>
           </div>

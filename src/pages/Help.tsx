@@ -12,6 +12,7 @@ export default function Help() {
         <main className="p-6 pb-24 lg:pb-6">
           <div className="space-y-6 max-w-7xl mx-auto">
             <h1 className="text-3xl font-bold">Help & Support</h1>
+<<<<<<< HEAD
 
             <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-card p-4 rounded-lg border border-border">
@@ -31,6 +32,8 @@ export default function Help() {
                 </ul>
               </div>
             </section>
+=======
+>>>>>>> 22cd1cc6bf69d05bb6043d5fffb7fd988d70d96a
           </div>
         </main>
       </div>

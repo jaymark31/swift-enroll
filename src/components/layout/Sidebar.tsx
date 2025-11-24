@@ -1,5 +1,6 @@
 import { NavLink } from "@/components/NavLink";
 import { cn } from "@/lib/utils";
+<<<<<<< HEAD
 import {
   LayoutDashboard,
   ClipboardList,
@@ -12,6 +13,17 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+=======
+import { 
+  LayoutDashboard, 
+  ClipboardList, 
+  BookOpen, 
+  DollarSign, 
+  Calendar, 
+  HelpCircle,
+  GraduationCap 
+} from "lucide-react";
+>>>>>>> 22cd1cc6bf69d05bb6043d5fffb7fd988d70d96a
 
 const navigation = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
@@ -23,6 +35,7 @@ const navigation = [
 ];
 
 export const Sidebar = () => {
+<<<<<<< HEAD
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -33,6 +46,8 @@ export const Sidebar = () => {
       navigate("/");
     }
   };
+=======
+>>>>>>> 22cd1cc6bf69d05bb6043d5fffb7fd988d70d96a
   return (
     <aside className="hidden lg:flex lg:flex-col lg:w-64 lg:fixed lg:inset-y-0 bg-card border-r border-border">
       <div className="flex items-center gap-2 h-16 px-6 border-b border-border">
@@ -53,12 +68,15 @@ export const Sidebar = () => {
           </NavLink>
         ))}
       </nav>
+<<<<<<< HEAD
       <div className="px-3 py-4 border-t border-border">
         <Button variant="ghost" className="w-full justify-start" onClick={handleLogout}>
           <LogOut className="h-4 w-4 mr-2" />
           Logout
         </Button>
       </div>
+=======
+>>>>>>> 22cd1cc6bf69d05bb6043d5fffb7fd988d70d96a
     </aside>
   );
 };
