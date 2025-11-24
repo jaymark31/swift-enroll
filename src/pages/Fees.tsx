@@ -1,7 +1,6 @@
 import { Sidebar } from "@/components/layout/Sidebar";
 import { Header } from "@/components/layout/Header";
 import { MobileNav } from "@/components/layout/MobileNav";
-<<<<<<< HEAD
 import { formatPeso } from "@/lib/utils";
 import { useState } from "react";
 import { mockFees } from "@/lib/mockData";
@@ -37,11 +36,6 @@ export default function Fees() {
   };
 
   const targetInvoice = invoices.find((i) => i.invoiceId === targetInvoiceId) ?? outstanding[0];
-
-=======
-
-export default function Fees() {
->>>>>>> 22cd1cc6bf69d05bb6043d5fffb7fd988d70d96a
   return (
     <div className="min-h-screen bg-background">
       <Sidebar />
@@ -51,7 +45,6 @@ export default function Fees() {
         <main className="p-6 pb-24 lg:pb-6">
           <div className="space-y-6 max-w-7xl mx-auto">
             <h1 className="text-3xl font-bold">Fees</h1>
-<<<<<<< HEAD
 
             <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-card p-4 rounded-lg border border-border">
@@ -121,8 +114,6 @@ export default function Fees() {
                 </DialogFooter>
               </DialogContent>
             </Dialog>
-=======
->>>>>>> 22cd1cc6bf69d05bb6043d5fffb7fd988d70d96a
           </div>
         </main>
       </div>
